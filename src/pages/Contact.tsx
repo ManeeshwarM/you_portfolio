@@ -1,8 +1,10 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Mail, Github, Linkedin, Copy, ExternalLink, Sparkles, Send } from "lucide-react";
+import { Mail, Github, Linkedin, Copy, ExternalLink, Sparkles, Send, Phone } from "lucide-react";
 import type { Variants } from "framer-motion";
-const EMAIL = "mmarpu@cougarnet.uh.edu";
+
+const EMAIL = "maneeshwar.m@mycvhire.com";
+const PHONE = "+1 346-638-2834";
 const SUBJECT = encodeURIComponent("Hello from your portfolio");
 
 export default function Contact() {
@@ -11,26 +13,36 @@ export default function Contact() {
   async function copyEmail() {
     try {
       await navigator.clipboard.writeText(EMAIL);
-      setToast({ open: true, msg: "Copied to clipboard!" });
+      setToast({ open: true, msg: "Email copied to clipboard!" });
     } catch {
-      setToast({ open: true, msg: "Couldn’t copy — long-press to copy" });
+      setToast({ open: true, msg: "Couldn't copy — long-press to copy" });
     } finally {
       setTimeout(() => setToast({ open: false, msg: "" }), 2500);
     }
   }
 
+  async function copyPhone() {
+    try {
+      await navigator.clipboard.writeText(PHONE);
+      setToast({ open: true, msg: "Phone number copied!" });
+    } catch {
+      setToast({ open: true, msg: "Couldn't copy — long-press to copy" });
+    } finally {
+      setTimeout(() => setToast({ open: false, msg: "" }), 2500);
+    }
+  }
 
-const itemVariants: Variants = {
-  hidden: { y: 20, opacity: 0 },
-  visible: {
-    y: 0,
-    opacity: 1,
-    transition: {
-      duration: 0.6,
-      ease: "easeOut",
+  const itemVariants: Variants = {
+    hidden: { y: 20, opacity: 0 },
+    visible: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        duration: 0.6,
+        ease: "easeOut",
+      },
     },
-  },
-};
+  };
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -39,7 +51,6 @@ const itemVariants: Variants = {
       transition: { staggerChildren: 0.12, delayChildren: 0.2 }
     }
   };
-
 
   return (
     <motion.section
@@ -59,14 +70,14 @@ const itemVariants: Variants = {
         </div>
 
         <h1 className="text-5xl md:text-6xl font-black tracking-tight leading-[1.1] text-zinc-900 dark:text-zinc-100">
-          Let’s start a <br />
+          Let's start a <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-400">
             Conversation.
           </span>
         </h1>
 
         <p className="text-zinc-500 dark:text-zinc-400 text-lg max-w-xl mx-auto font-medium">
-          Based in Houston, TX. I specialize in Cloud Engineering and SRE.
+          Based in Houston, TX. I specialize in DevOps, Cloud Engineering & SRE.
         </p>
       </motion.header>
 
@@ -97,11 +108,36 @@ const itemVariants: Variants = {
         </div>
       </motion.div>
 
+      {/* PHONE CARD */}
+      <motion.div variants={itemVariants} className="relative max-w-2xl mx-auto">
+        <div className="relative flex flex-col sm:flex-row gap-3 p-3 bg-white/70 dark:bg-zinc-900/70 backdrop-blur-xl border border-zinc-200 dark:border-zinc-700 rounded-3xl shadow-xl">
+          <a
+            href={`tel:${PHONE.replace(/\s/g, "")}`}
+            className="group flex items-center gap-4 px-6 h-16 rounded-2xl bg-zinc-50 dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 hover:bg-zinc-100 dark:hover:bg-zinc-700 transition-all flex-1"
+          >
+            <div className="p-2.5 rounded-xl bg-red-100 dark:bg-red-500/20 text-red-600 dark:text-red-400">
+              <Phone className="w-5 h-5" />
+            </div>
+            <div className="flex flex-col min-w-0">
+              <span className="text-[10px] uppercase font-bold text-zinc-400 tracking-widest">Call Me</span>
+              <span className="font-bold text-zinc-800 dark:text-zinc-100 truncate">{PHONE}</span>
+            </div>
+          </a>
+
+          <button
+            onClick={copyPhone}
+            className="flex items-center justify-center gap-2 px-10 h-16 rounded-2xl bg-zinc-900 dark:bg-zinc-100 text-white dark:text-zinc-900 font-bold transition-all active:scale-95"
+          >
+            <Copy className="w-4 h-4" /> Copy
+          </button>
+        </div>
+      </motion.div>
+
       {/* SOCIAL GRID */}
       <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
         {[
-          { name: "GitHub", icon: <Github />, link: "https://github.com/ManeeshwarMarpu" },
-          { name: "LinkedIn", icon: <Linkedin />, link: "https://www.linkedin.com/in/marpumaneeshwar/" }
+          { name: "GitHub", icon: <Github />, link: "https://github.com/ManeeshwarM" },
+          { name: "LinkedIn", icon: <Linkedin />, link: "https://www.linkedin.com/in/maneeshwarmarpu" },
         ].map((p) => (
           <motion.a
             key={p.name}

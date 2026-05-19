@@ -2,47 +2,61 @@ import type { Experience } from "../components/ExperienceRow"
 
 export const experiences: Experience[] = [
   {
-    role: "Software Engineer – Site Reliability Engineering",
-    org: "Motorola Solutions Pvt. Ltd.",
-    period: "Jun 2023 – Jul 2024 · Bangalore, India",
+    role: "DevOps Engineer",
+    org: "Capital One",
+    period: "Sep 2025 – Present · USA",
     bullets: [
-      "Supported end-to-end Site Reliability Engineering operations across development, staging, and production environments, maintaining 99%+ availability for mission-critical services.",
-      "Designed and executed 10+ chaos engineering experiments using Litmus to validate fault tolerance, recovery workflows, and system resiliency under node, pod, and network failure scenarios.",
-      "Developed and maintained 20+ Grafana dashboards integrated with Prometheus to track latency, error rates, saturation, and service health, reducing Mean Time to Detect (MTTD) by 25%.",
-      "Owned Terraform-based infrastructure provisioning and updates across AWS and Kubernetes, executing changes with zero unplanned downtime.",
-      "Defined, tracked, and enforced Service Level Objectives (SLOs) and error budgets to guide release decisions and prevent reliability regressions.",
-      "Optimized Kubernetes workloads through CPU/memory right-sizing, HPA tuning, and autoscaling strategies, achieving a 15% reduction in cloud infrastructure costs.",
-      "Participated in on-call rotations, triaging alerts from Prometheus, Alertmanager, and CloudWatch to resolve incidents within SLA timelines.",
-      "Collaborated closely with application developers during deployments and post-incident reviews, documenting root causes and implementing long-term reliability improvements."
+      "Introduced Agile-based release planning and cross-functional sprint workflows to streamline collaboration between development and operations teams, accelerating feature delivery by 30% through improved sprint execution and continuous feedback.",
+      "Implemented GitOps automation using ArgoCD and Python-based validation scripts to eliminate manual deployment steps, improve release traceability, and reduce configuration drift by 35% across Kubernetes-based environments supporting enterprise applications.",
+      "Developed reusable AWS CloudFormation templates to standardize infrastructure provisioning across development environments, lowering provisioning effort by 40% and reducing setup time from days to hours while ensuring compliant cloud deployments.",
+      "Managed enterprise workloads on Azure Kubernetes Service (AKS) and OpenShift, performing zero-downtime upgrades, capacity optimization, and platform maintenance to maintain 99.9% application uptime across multi-cloud environments.",
+      "Created end-to-end GitLab CI/CD pipelines with Helm-based deployment automation to streamline build, test, and release processes, reducing deployment failures by 45% and shortening release cycles from weekly to daily."
     ],
-    tags: ["SRE", "AWS", "Kubernetes", "Terraform", "Grafana", "Prometheus", "Chaos Engineering"],
+    tags: ["GitOps", "ArgoCD", "AKS", "OpenShift", "CloudFormation", "GitLab CI/CD", "Helm", "Kubernetes"],
     thumb:
       "https://firebasestorage.googleapis.com/v0/b/portfolio-84f15.firebasestorage.app/o/Gemini_Generated_Image_97pyp997pyp997py.png?alt=media&token=1acf1d47-9e9a-4f1d-a0dd-2dfdd3e145b6",
   },
 
   {
-    role: "Cloud Engineer Intern",
+    role: "Software Engineer – DevOps & Site Reliability Engineering",
     org: "Motorola Solutions Pvt. Ltd.",
-    period: "Mar 2022 – May 2023 · Bangalore, India",
+    period: "Mar 2022 – Jul 2024 · Bangalore, India",
     bullets: [
-      "Migrated CI/CD pipelines from Azure DevOps to GitHub Actions, improving pipeline consistency and reducing build failures by 25%.",
-      "Built and maintained GitHub Actions workflows to automate AWS tasks including EC2, RDS, S3, IAM, and ingress management.",
-      "Supported monitoring setup and validation across non-production environments, enabling earlier detection of performance and reliability issues.",
-      "Reviewed Prisma Cloud container security scan results, identifying false positives and misconfigurations, reducing unnecessary security alerts by 20%.",
-      "Assisted in troubleshooting CI/CD pipeline failures and validating build artifacts prior to deployments.",
-      "Performed routine environment checks and smoke tests before releases to prevent pre-release defects from reaching staging.",
-      "Collaborated with developers to verify infrastructure and configuration changes during feature rollouts.",
-      "Documented deployment procedures, monitoring runbooks, and troubleshooting steps to improve onboarding and operational clarity."
+      "Owned development and operational management of 14 distributed microservices, handling feature development, dependency management, and inter-service communication to ensure reliability and consistency across production environments.",
+      "Established and shipped internal portal UI enhancements using Vue.js, building reusable component libraries and improving the responsiveness of enterprise-facing dashboards consumed by cross-functional teams across global operations.",
+      "Migrated CI/CD pipelines from Azure Pipelines to GitHub Actions by rewriting pipeline configurations and standardizing deployment workflows across microservices to improve build reliability and development velocity.",
+      "Resolved Twistlock container security scan issues in Docker images by fixing vulnerable dependencies and enforcing compliance policies in CI pipelines, while maintaining and debugging cron job schedules for reliable execution.",
+      "Provisioned and maintained Azure Key Vaults for secrets and credential management, and supported containerized workloads via Docker across Azure-hosted environments throughout the platform migration lifecycle.",
+      "Transitioned into a Site Reliability Engineering role focused on chaos engineering by running fault injection tests using LitmusChaos and building observability dashboards with Prometheus and Grafana to monitor service health and improve SLO compliance.",
+      "Designed and executed 10+ chaos engineering experiments using Litmus to validate fault tolerance, recovery workflows, and system resiliency under node, pod, and network failure scenarios.",
+      "Developed and maintained 20+ Grafana dashboards integrated with Prometheus to track latency, error rates, saturation, and service health, reducing Mean Time to Detect (MTTD) by 25%."
     ],
-    tags: ["Cloud", "CI/CD", "GitHub Actions", "AWS", "Docker", "Security"],
+    tags: ["SRE", "AWS", "Azure", "Kubernetes", "Terraform", "Grafana", "Prometheus", "Chaos Engineering", "GitHub Actions", "Docker"],
     thumb:
       "https://firebasestorage.googleapis.com/v0/b/portfolio-84f15.firebasestorage.app/o/Gemini_Generated_Image_vp66q4vp66q4vp66.png?alt=media&token=a7f4bb69-625b-4f7b-8ed0-bbb24ad9c8c0",
   },
 
   {
-    role: "Instructional Assistant",
+    role: "Cloud Engineer",
+    org: "Cognitive Healthcare Solutions",
+    period: "Jun 2021 – Feb 2022 · India",
+    bullets: [
+      "Adopted Test-Driven Development (TDD) practices for cloud applications by writing unit and integration tests before implementation, reducing post-deployment defects by 88% across CI/CD-driven development environments.",
+      "Designed AWS S3 backup and disaster recovery strategies using versioning and cross-region replication to safeguard critical enterprise data, reducing recovery time by 92% and improving business continuity readiness.",
+      "Architected secure AWS and Azure hybrid cloud environments with integrated identity management, secure networking, and workload portability, improving infrastructure resilience by 90% and enabling seamless cross-platform deployments.",
+      "Built centralized observability solutions by integrating infrastructure and application metrics, logs, and alerts into unified monitoring dashboards, reducing incident response time by 87% and improving operational visibility.",
+      "Automated provisioning and day-to-day operational tasks using PowerShell scripts to eliminate repetitive manual work and standardize administrative workflows, improving team productivity by 85%.",
+      "Optimized PostgreSQL database performance through indexing, query tuning, and replication strategies, improving query response times by 91% while enhancing scalability, data integrity, and overall database reliability."
+    ],
+    tags: ["AWS", "Azure", "Hybrid Cloud", "TDD", "CI/CD", "PowerShell", "PostgreSQL", "Observability"],
+    thumb:
+      "https://images.unsplash.com/photo-1581091215367-59ab6b0f5b33?q=80&w=1600&auto=format&fit=crop",
+  },
+
+  {
+    role: "Graduate Assistant",
     org: "University of Houston",
-    period: "Aug 2025 – Present · Houston, TX",
+    period: "Jan 2025 – May 2025 · Houston, TX",
     bullets: [
       "Supported Linux-based lab environments by assisting students with system setup, configuration validation, and dependency resolution.",
       "Helped debug Python applications, container-related issues, and environment-level errors across academic projects.",
@@ -56,20 +70,5 @@ export const experiences: Experience[] = [
       "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?q=80&w=1600&auto=format&fit=crop",
   },
 
-  {
-    role: "Software Tester Intern",
-    org: "Society of Health and Medical Technology",
-    period: "Jun 2021 – Dec 2021 · Noida, India",
-    bullets: [
-      "Executed functional, regression, and integration testing across multiple application modules prior to scheduled releases.",
-      "Validated application behavior across test environments and identified defects with clear reproduction steps and impact analysis.",
-      "Supported CI/CD-driven testing workflows by detecting build and deployment issues affecting release quality.",
-      "Collaborated with developers to verify bug fixes, retest resolved issues, and ensure release readiness.",
-      "Maintained detailed test execution reports and defect documentation to improve system stability and traceability.",
-      "Gained hands-on exposure to software quality assurance processes, release cycles, and defect lifecycle management."
-    ],
-    tags: ["Testing", "QA", "CI/CD", "Healthcare Tech"],
-    thumb:
-      "https://images.unsplash.com/photo-1581091215367-59ab6b0f5b33?q=80&w=1600&auto=format&fit=crop",
-  },
+
 ]
