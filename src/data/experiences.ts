@@ -14,7 +14,7 @@ export const experiences: Experience[] = [
     ],
     tags: ["GitOps", "ArgoCD", "AKS", "OpenShift", "CloudFormation", "GitLab CI/CD", "Helm", "Kubernetes"],
     thumb:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-84f15.firebasestorage.app/o/Gemini_Generated_Image_97pyp997pyp997py.png?alt=media&token=1acf1d47-9e9a-4f1d-a0dd-2dfdd3e145b6",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-84f15.firebasestorage.app/o/capital.png?alt=media&token=065cbe8b-1e6c-4ebf-be60-f5054fbd9002",
   },
 
   {
@@ -33,7 +33,7 @@ export const experiences: Experience[] = [
     ],
     tags: ["SRE", "AWS", "Azure", "Kubernetes", "Terraform", "Grafana", "Prometheus", "Chaos Engineering", "GitHub Actions", "Docker"],
     thumb:
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-84f15.firebasestorage.app/o/Gemini_Generated_Image_vp66q4vp66q4vp66.png?alt=media&token=a7f4bb69-625b-4f7b-8ed0-bbb24ad9c8c0",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-84f15.firebasestorage.app/o/motorola.png?alt=media&token=a32136f4-644f-4170-908f-14fa394a252a",
   },
 
   {
@@ -50,7 +50,7 @@ export const experiences: Experience[] = [
     ],
     tags: ["AWS", "Azure", "Hybrid Cloud", "TDD", "CI/CD", "PowerShell", "PostgreSQL", "Observability"],
     thumb:
-      "https://images.unsplash.com/photo-1581091215367-59ab6b0f5b33?q=80&w=1600&auto=format&fit=crop",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-84f15.firebasestorage.app/o/congnitive.png?alt=media&token=159bf993-0132-4642-b3d8-b7425f3f14da",
   },
 
   {
@@ -67,7 +67,7 @@ export const experiences: Experience[] = [
     ],
     tags: ["Teaching", "Linux", "Python", "Cloud", "Docker"],
     thumb:
-      "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?q=80&w=1600&auto=format&fit=crop",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-84f15.firebasestorage.app/o/casa.png?alt=media&token=6e0ef35a-0935-4127-8ded-5efa6ee33b4e",
   },
 
 

@@ -243,7 +243,7 @@ export const videos: Video[] = [
     title: 'Zero Trust Security Architecture',
     thumbnail:
       'https://images.unsplash.com/photo-1614064641938-3bbee52942c7?q=80&w=1200&auto=format&fit=crop',
-    sources: { mp4: '' },
+    sources: { mp4: 'https://firebasestorage.googleapis.com/v0/b/portfolio-84f15.firebasestorage.app/o/zero_trust_multi_cloud_framework_presentationmp_.mp4?alt=media&token=117d72c3-fcc3-40c5-a22c-70b06e8743fb' },
     duration: '10:30',
     views: 7100,
     uploadedAt: '2026-05-11',
@@ -260,7 +260,8 @@ export const videos: Video[] = [
       'Aligned with NIST 800-53 and SOC2 compliance controls',
       'mTLS enforced across all inter-service communication',
     ],
-    github: 'https://github.com/ManeeshwarM/zero-trust-security',
+    github: 'https://github.com/ManeeshwarM/zero_trust_security',
+
   },
 
   {
@@ -268,7 +269,7 @@ export const videos: Video[] = [
     title: 'Unified Observability Stack',
     thumbnail:
       'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop',
-    sources: { mp4: '' },
+    sources: { mp4: 'https://firebasestorage.googleapis.com/v0/b/portfolio-84f15.firebasestorage.app/o/unified_obs.mp4?alt=media&token=7c4060b5-15e0-494b-9781-66c25d89fd99' },
     duration: '11:15',
     views: 8300,
     uploadedAt: '2026-05-11',
@@ -285,7 +286,7 @@ export const videos: Video[] = [
       'Unified correlation of metrics, logs, and traces for fast RCA',
       'Reduced MTTD by 25% and incident response time by 87%',
     ],
-    github: 'https://github.com/ManeeshwarM/unified-observability-stack',
+    github: 'https://github.com/ManeeshwarM/unified_obs_stack',
   },
 
   {
@@ -293,7 +294,7 @@ export const videos: Video[] = [
     title: 'Multi-Cloud CI/CD Pipeline',
     thumbnail:
       'https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?q=80&w=1200&auto=format&fit=crop',
-    sources: { mp4: '' },
+    sources: { mp4: 'https://firebasestorage.googleapis.com/v0/b/portfolio-84f15.firebasestorage.app/o/f_f_a_d_a_eb_eb_cmp_.mp4?alt=media&token=86f86b6e-5887-41a3-b89e-08ac23dced65' },
     duration: '9:55',
     views: 9600,
     uploadedAt: '2026-04-16',
@@ -310,7 +311,7 @@ export const videos: Video[] = [
       'Deployment failures reduced by 45%; release cadence shifted weekly → daily',
       'Multi-cloud support across AWS (EKS) and Azure (AKS)',
     ],
-    github: 'https://github.com/ManeeshwarM/multi-cloud-cicd',
+    github: 'https://github.com/ManeeshwarM/multi-cloud-cd',
   },
 
   {
@@ -318,7 +319,7 @@ export const videos: Video[] = [
     title: 'Self-Healing Microservices Platform',
     thumbnail:
       'https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop',
-    sources: { mp4: '' },
+    sources: { mp4: 'https://firebasestorage.googleapis.com/v0/b/portfolio-84f15.firebasestorage.app/o/self_heal_kub.mp4?alt=media&token=b74f6fc8-d9e8-4f81-b7de-1bd67d1d34b7' },
     duration: '10:45',
     views: 7500,
     uploadedAt: '2026-05-11',
@@ -335,7 +336,7 @@ export const videos: Video[] = [
       'Deterministic safety gates to prevent cascading failure loops',
       'Reduced manual on-call interventions across production environments',
     ],
-    github: 'https://github.com/ManeeshwarM/self-healing-microservices',
+    github: 'https://github.com/ManeeshwarM/self_healing_microservices',
   },
 
   {
@@ -343,7 +344,7 @@ export const videos: Video[] = [
     title: 'Compliance as Code (SOC2 / NIST)',
     thumbnail:
       'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=1200&auto=format&fit=crop',
-    sources: { mp4: '' },
+    sources: { mp4: 'https://firebasestorage.googleapis.com/v0/b/portfolio-84f15.firebasestorage.app/o/generate_me_a_video_of_Automat.mp4?alt=media&token=74c60933-4904-471f-8313-0ff4bb130917' },
     duration: '8:40',
     views: 6200,
     uploadedAt: '2026-04-16',
@@ -360,7 +361,7 @@ export const videos: Video[] = [
       'Eliminates manual compliance reviews — compliance proven at deploy time',
       'Covers IAM, encryption, network, logging, and access control domains',
     ],
-    github: 'https://github.com/ManeeshwarM/compliance-as-code',
+    github: 'https://github.com/ManeeshwarM/compilance_as_code',
   },
 
   {
@@ -368,7 +369,7 @@ export const videos: Video[] = [
     title: 'Infrastructure Cost Intelligence (FinOps)',
     thumbnail:
       'https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?q=80&w=1200&auto=format&fit=crop',
-    sources: { mp4: '' },
+    sources: { mp4: 'https://firebasestorage.googleapis.com/v0/b/portfolio-84f15.firebasestorage.app/o/finops.mp4?alt=media&token=37051fdb-232d-4a2e-862e-efd7623aafff' },
     duration: '9:00',
     views: 5900,
     uploadedAt: '2026-04-16',
@@ -385,7 +386,7 @@ export const videos: Video[] = [
       '15%+ cloud cost reduction achieved through automated optimization',
       'Cost gates integrated into CI/CD to flag expensive infrastructure changes pre-deploy',
     ],
-    github: 'https://github.com/ManeeshwarM/infra-cost-intelligence',
+    github: 'https://github.com/ManeeshwarM/infra_cost_intelligence',
   },
 
 ]
