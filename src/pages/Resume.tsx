@@ -10,7 +10,7 @@ export default function Resume() {
             <p className="mb-1">
               (346) 638 - 2834 | mmarpu@CougarNet.uh.edu
             </p>
-            <a href="www.linkedin.com/in/marpumaneeshwar" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors">
+            <a href="www.linkedin.com/in/maneeshwar11" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors">
               LinkedIn
             </a>
             <span className="mx-2">|</span>

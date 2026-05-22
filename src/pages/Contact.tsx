@@ -137,7 +137,7 @@ export default function Contact() {
       <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
         {[
           { name: "GitHub", icon: <Github />, link: "https://github.com/ManeeshwarM" },
-          { name: "LinkedIn", icon: <Linkedin />, link: "https://www.linkedin.com/in/maneeshwarmarpu" },
+          { name: "LinkedIn", icon: <Linkedin />, link: "https://www.linkedin.com/in/maneeshwar11" },
         ].map((p) => (
           <motion.a
             key={p.name}

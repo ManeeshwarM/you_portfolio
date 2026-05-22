@@ -51,7 +51,7 @@ export default function Sidebar() {
             <a className={link} href="https://github.com/ManeeshwarMarpu" target="_blank" rel="noreferrer">
               <Github className="size-5" /> <span className="hidden md:inline">GitHub</span>
             </a>
-            <a className={link} href="https://www.linkedin.com/in/marpumaneeshwar/" target="_blank" rel="noreferrer">
+            <a className={link} href="https://www.linkedin.com/in/maneeshwar11/" target="_blank" rel="noreferrer">
               <Linkedin className="size-5" /> <span className="hidden md:inline">LinkedIn</span>
             </a>
           </div>

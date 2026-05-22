@@ -5,9 +5,9 @@ import { videos } from "../data/videos";
 import VideoGrid from "../components/VideoGrid";
 import FilterChips from "../components/FilterChips";
 
-const RESUME_URL =  "https://firebasestorage.googleapis.com/v0/b/portfolio-84f15.firebasestorage.app/o/Maneeshwar.pdf?alt=media&token=83d58cbb-e01b-4b8e-8d74-bb67f3adc809";
+const RESUME_URL =  "https://firebasestorage.googleapis.com/v0/b/portfolio-84f15.firebasestorage.app/o/Maneeshwar%20Marpu_Devops.pdf?alt=media&token=ecdaa27b-c309-42df-98f5-78da0004a82a";
 const GITHUB_URL = "https://github.com/ManeeshwarMarpu";
-const LINKEDIN_URL = "https://linkedin.com/in/maneeshwermarpu";
+const LINKEDIN_URL = "https://www.linkedin.com/in/maneeshwar11/";
 
 export default function Channel() {
   const { handle } = useParams();

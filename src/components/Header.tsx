@@ -5,7 +5,7 @@ import { CircleUserRound, QrCode, Sun, Moon } from "lucide-react";
 // If this is in /public, prefer the Vite alias:
 import LogoIcon from "/portfolio-icon.svg";
 
-const LINKEDIN_URL = "https://www.linkedin.com/in/marpumaneeshwar/";
+const LINKEDIN_URL = "https://www.linkedin.com/in/maneeshwar11/";
 
 function useTheme() {
   const [theme, setTheme] = React.useState<"light" | "dark">(() => {
