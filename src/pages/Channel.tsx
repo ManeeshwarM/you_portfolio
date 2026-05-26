@@ -6,7 +6,7 @@ import VideoGrid from "../components/VideoGrid";
 import FilterChips from "../components/FilterChips";
 
 const RESUME_URL =  "https://firebasestorage.googleapis.com/v0/b/portfolio-84f15.firebasestorage.app/o/Maneeshwar%20Marpu_Devops.pdf?alt=media&token=ecdaa27b-c309-42df-98f5-78da0004a82a";
-const GITHUB_URL = "https://github.com/ManeeshwarMarpu";
+const GITHUB_URL = "https://github.com/ManeeshwarM";
 const LINKEDIN_URL = "https://www.linkedin.com/in/maneeshwar11/";
 
 export default function Channel() {

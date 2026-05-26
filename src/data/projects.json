@@ -13,7 +13,7 @@
       "Version Control & Collaboration"
     ],
     "description": "This project focuses on detecting anomalies in a highly imbalanced fraud dataset using unsupervised techniques. It involves thorough exploratory data analysis and visualization to understand data distributions and identify outlier behavior. Models such as Isolation Forest and Autoencoders are employed to flag potential fraudulent activities. Evaluation metrics like confusion matrices and classification reports are used to assess detection performance. The project demonstrates a complete pipeline from data preprocessing to model training and insightful visualization.",
-    "github": "https://github.com/ManeeshwarMarpu/Data-Science-Projects/tree/main/Anomaly_Detection_for_Fraud"
+    "github": "https://github.com/ManeeshwarM/Data-Science-Projects/tree/main/Anomaly_Detection_for_Fraud"
   },
   {
     "id": 6,
@@ -29,7 +29,7 @@
       "Version Control & Collaboration"
     ],
     "description": "This project integrates data preprocessing, ARIMA model fitting, comprehensive diagnostic checks, and forecast evaluation to deliver a robust time series analysis framework. It serves as a practical example for anyone interested in learning time series forecasting, weather analysis, and model validation techniques.",
-    "github": "https://github.com/ManeeshwarMarpu/sdpproj3"
+    "github": "https://github.com/ManeeshwarM/sdpproj3"
   },
   {
     "id": 3,
@@ -60,7 +60,7 @@
       "Framer Motion"
     ],
     "description": "A YouTube-style cinematic portfolio showcasing projects with interactive UI elements, smooth animations, dark/light mode support, and responsive design. Includes an AI-powered assistant and RAG-based portfolio querying system.",
-    "github": "https://github.com/ManeeshwarMarpu/sdpproj3"
+    "github": "https://github.com/ManeeshwarM/sdpproj3"
   },
   {
     "id": 0,
@@ -90,7 +90,7 @@
       "CSS"
     ],
     "description": "A web-based project management system built with Django to manage projects, tasks, user roles, permissions, reporting, and progress tracking in a collaborative environment.",
-    "github": "https://github.com/ManeeshwarMarpu/Project-management-system"
+    "github": "https://github.com/ManeeshwarM/Project-management-system"
   },
   {
     "id": 1,
@@ -105,7 +105,7 @@
       "JSP"
     ],
     "description": "A loan application tracking system allowing users to apply for loans online, repay via EMIs, and enabling managers to monitor application statuses, repayments, and loan categories.",
-    "github": "https://github.com/ManeeshwarMarpu/sdpproj3"
+    "github": "https://github.com/ManeeshwarM/sdpproj3"
   },
   {
     "id": 10,
@@ -172,6 +172,6 @@
       "Real-Time Data"
     ],
     "description": "A real-time stock market dashboard built with a modern React frontend, containerized deployment using Docker, responsive UI design, and scalable architecture for financial analytics.",
-    "github": "https://github.com/ManeeshwarMarpu/cloud-projects/tree/main/real-time-stock-dashboard"
+    "github": "https://github.com/ManeeshwarM/cloud-projects/tree/main/real-time-stock-dashboard"
   }
 ]

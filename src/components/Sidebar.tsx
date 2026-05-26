@@ -48,7 +48,7 @@ export default function Sidebar() {
         <div className="pt-4 border-t border-yt">
           <div className="px-3 text-xs uppercase tracking-wide text-yt-muted">Social</div>
           <div className="mt-2 space-y-1">
-            <a className={link} href="https://github.com/ManeeshwarMarpu" target="_blank" rel="noreferrer">
+            <a className={link} href="https://github.com/ManeeshwarM" target="_blank" rel="noreferrer">
               <Github className="size-5" /> <span className="hidden md:inline">GitHub</span>
             </a>
             <a className={link} href="https://www.linkedin.com/in/maneeshwar11/" target="_blank" rel="noreferrer">
